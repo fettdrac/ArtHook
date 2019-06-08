@@ -32,7 +32,7 @@ It is based on my shallow understanding of some hook frameworks and tourials and
     直接inline hook这个quick_code入口就可以实现稳定hook，到了8.0以上入口替换就稳多了
 
 * `JNI Dex Load`
-    * 这个目前还没有完全实现，memory_dex会段错误，学考完填坑）
+    * 这个目前还没有完全实现，memory_dex会段错误，学考完填坑）,有文件加载dex的轮子之前我造过[loadpayloaddex.cpp](https://github.com/fettdrac/android-act-montior/blob/master/loadpayloaddex.cpp)
 
 ## ArtHook的优势在哪(What are the benefit of ArtHook)
 
